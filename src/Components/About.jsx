@@ -9,10 +9,6 @@ function About() {
           <h2 className="display-5 fw-bold">
             About Me
           </h2>
-
-          <p className="text-muted">
-            Get to know me
-          </p>
         </div>
 
         <div className="row align-items-center">
@@ -54,11 +50,13 @@ function About() {
 
               <div className="col-sm-6">
                 <p>
-                  <strong>Technologies:</strong> React, JavaScript
+                  <strong>Technologies:</strong> HTML, CSS, JavaScript, React,
+                  <br />
+                  <span className="python-indent">Python</span>
                 </p>
 
                 <p>
-                  <strong>Framework:</strong> Bootstrap
+                  <strong>Frameworks:</strong> Bootstrap, Tailwind CSS
                 </p>
               </div>
 
