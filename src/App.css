@@ -64,3 +64,22 @@
 .python-indent {
   margin-left: 108px;
 }
+
+/* Skills Section */
+
+#skills .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12) !important;
+}
+
+#skills .progress {
+  border-radius: 10px;
+}
+
+#skills .progress-bar {
+  border-radius: 10px;
+}
