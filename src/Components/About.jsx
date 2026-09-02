@@ -1,24 +1,30 @@
-import React from 'react'
+import React from 'react';
+import aboutWorkspace from '../assets/about-workspace.png';
 
 function About() {
   return (
     <section id="about" className="about-section py-5">
       <div className="container">
 
+        {/* Section Heading */}
         <div className="text-center mb-5">
           <h2 className="display-5 fw-bold">
             About Me
           </h2>
         </div>
 
-        <div className="row align-items-center">
+        <div className="row align-items-center g-5">
 
-          <div className="col-lg-5 text-center mb-4 mb-lg-0">
-            <div className="about-icon mx-auto">
-              <span>💻</span>
-            </div>
+          {/* About Image */}
+          <div className="col-lg-5 text-center">
+            <img
+              src={aboutWorkspace}
+              className="img-fluid rounded-4 shadow"
+              alt="Professional developer workspace"
+            />
           </div>
 
+          {/* About Content */}
           <div className="col-lg-7">
             <h3 className="fw-bold mb-3">
               I'm a Frontend Developer
@@ -36,6 +42,7 @@ function About() {
               my development skills by building real-world projects.
             </p>
 
+            {/* Personal Information */}
             <div className="row mt-4">
 
               <div className="col-sm-6">
@@ -50,7 +57,8 @@ function About() {
 
               <div className="col-sm-6">
                 <p>
-                  <strong>Technologies:</strong> HTML, CSS, JavaScript, React,
+                  <strong>Technologies:</strong> HTML, CSS, JavaScript,
+                  React,
                   <br />
                   <span className="python-indent">Python</span>
                 </p>
@@ -67,7 +75,7 @@ function About() {
 
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
