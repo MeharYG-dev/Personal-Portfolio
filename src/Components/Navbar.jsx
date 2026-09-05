@@ -1,35 +1,36 @@
-import React from 'react'
-
+import React from 'react';
 
 function Navbar() {
   return (
-    <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div className="container">
 
-        <a className="navbar-brand" href="#">
-          My Portfolio
+        {/* Portfolio Name */}
+        <a className="navbar-brand fw-bold text-primary" href="#home">
+          Meharunnisa
         </a>
 
+        {/* Mobile Toggle Button */}
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
+        {/* Navigation Links */}
         <div
           className="collapse navbar-collapse"
-          id="navbarNavAltMarkup"
+          id="navbarNav"
         >
           <div className="navbar-nav ms-auto">
 
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link" href="#home">
               Home
             </a>
 
@@ -54,14 +55,7 @@ function Navbar() {
 
       </div>
     </nav>
-    </>
-  )
-
-
+  );
 }
 
-
-    
-  
-
-export default Navbar
+export default Navbar;
