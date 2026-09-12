@@ -1,16 +1,46 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built using React, Vite, Bootstrap 5, and custom CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** https://sprightly-unicorn-b7c4c1.netlify.app/
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Bootstrap 5
+* JavaScript
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Responsive Navigation Bar
+* Professional Hero Section
+* About Me Section
+* Skills Section
+* Projects Showcase
+* Contact Form with Submission Success Message
+* Responsive Design for Mobile, Tablet, and Desktop
+
+## 📂 Projects Featured
+
+* **Movie Explorer** — React application for searching and exploring movies.
+* **Typing Speed Test** — React application for testing typing speed.
+
+
+## 📱 Responsive Design
+
+The website is designed to work smoothly across:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+## 🚀 Deployment
+
+The project is deployed using Netlify.
+
+**Live Demo:** https://sprightly-unicorn-b7c4c1.netlify.app/
