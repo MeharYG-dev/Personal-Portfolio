@@ -1,6 +1,17 @@
-import React from 'react';
+
+import React, { useState } from "react";
 
 function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    setSubmitted(true);
+
+    event.target.reset();
+  };
+
   return (
     <section id="contact" className="py-5">
       <div className="container">
@@ -62,6 +73,7 @@ function Contact() {
 
               <div>
                 <h6 className="fw-bold mb-1">GitHub</h6>
+
                 <a
                   href="https://github.com/MeharYG-dev"
                   target="_blank"
@@ -78,7 +90,23 @@ function Contact() {
           {/* Contact Form */}
           <div className="col-lg-7">
 
-            <form>
+            {/* Success Message */}
+            {submitted && (
+              <div
+                className="alert alert-success alert-dismissible fade show"
+                role="alert"
+              >
+                <strong>Successfully Submitted!</strong> Thank you for contacting me. I will get back to you soon.
+
+                <button
+                  type="button"
+                  className="btn-close"
+                  onClick={() => setSubmitted(false)}
+                ></button>
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit}>
 
               {/* Name */}
               <div className="mb-3">
@@ -146,3 +174,4 @@ function Contact() {
 }
 
 export default Contact;
+
